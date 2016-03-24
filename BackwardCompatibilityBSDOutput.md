@@ -1,0 +1,3 @@
+# Introduction #
+
+When launching extensive measurements, a person will typically have a script that calls traceroute at the command line and will also have a script that parses traceroute's output. If we want the Paris Traceroute command line tool to be widely adopted, it should by default produce output that is pretty much character-by-character identical to classic traceroute output, so that such parsing scripts require as little change as possible.
